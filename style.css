@@ -1,0 +1,173 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.page {
+    border: 1px solid black;
+    width: 800px;
+    height: 60em;
+    margin: 80px auto;
+    box-shadow: 4px 5px 4px 5px #682d56;
+}
+.left-side {
+    background-color: #682d56;
+    width: 325px;
+    height: 60em;
+    float: left;
+    color: white;
+}
+.right-side {
+    border: 1px solid black;
+    width: 473px;
+    height: 60em;
+    float: right;
+    background-color: white;
+    color: black;
+}
+.left-side .image img {
+    width: 200px;
+    height: 200px;
+   border-radius: 250px;
+   margin-top: 20px;
+   border: 3px solid whitesmoke;
+}
+.left-side .name {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.left-side .details {
+    padding: 10px;
+    margin: 10px;
+}
+.left-side .skills {
+    padding: 10px;
+    margin: 10px;
+}
+.right-side .Education {
+    padding: 10px;
+    margin: 10px;
+}
+
+.right-side .hobbies {
+    padding: 12px;
+    margin: 10px;
+}
+.right-side .hobbies h3 {
+    background-color: #682d56;
+    color:whitesmoke;
+    width: 380px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    margin-left: 1px;
+}
+
+.left-side h3 {
+    background-color: whitesmoke;
+    color: #682d56;
+    width: 270px;
+    height: 25px;
+    text-align: center;
+}
+.right-side .hobbies i {
+    background-color: whitesmoke;
+    color: #682d56;
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    padding: 15px 15px;
+    font-size: 2.5ch;
+
+}
+.left-side .details i {
+    background-color: whitesmoke;
+    color: #682d56;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    padding: 9px;
+}
+.right-side .Education h3 {
+    background-color: #682d56;
+    color: whitesmoke;
+    width: 380px;
+    height: 25px;
+    text-align: center;
+}
+
+
+.left-side .details .contact {
+    display: flex;
+}
+.left-side .details .email {
+    display: flex;
+}
+.left-side .details .address .madhu {
+    padding:  0 35px;
+}
+
+.left-side .skills li {
+    margin-left: 20px;
+}
+.right-side .CB h3 {
+    background-color:#682d56;
+    color: whitesmoke;
+    width: 380px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+}
+.right-side .CB p {
+    margin-left: 20px;
+    padding: 20px 20px;
+    color:black;
+}
+.right-side .Education p {
+    padding: 20px 20px;
+    color: black;
+}
+.right-side .pj h3 {
+    background-color: #682d56;
+    color:whitesmoke;
+    width: 380px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+}
+.right-side .pj p {
+    margin-left: 30px;
+}
+.right-side .pj i {
+    margin-left: 30px;
+    font-size: 3.5ch;
+    color:  #682d56;
+}
+.right-side .pj a {
+    color:blue;
+}
+
+.right-side .cc h3 {
+    background-color: #682d56;
+    color:whitesmoke;
+    width: 380px;
+    height: 25px;
+    text-align: center;
+    position: relative;
+    margin-left: 20px;
+}
+.right-side .cc p {
+    margin-left: 25px;
+}
+.right-side .hobbies .i2 {
+    margin-left: 10px;
+}
+.right-side .hobbies .ico{
+    display: flex;
+}
